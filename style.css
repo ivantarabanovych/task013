@@ -26,6 +26,17 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.cat {
+    background-image: url('./images/img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    background-repeat: no-repeat;
+    box-shadow: 32px -25px 101px 22px rgba(0,0,0,0.74),
+    inset 0px 0px 300px 16px rgba(0,0,0,0.87);
 }
 
