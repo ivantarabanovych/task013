@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Sedan", serif;
+}
+
+.container {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column; 
+    background-image: linear-gradient(
+      to top left,
+      #005effe4,
+      rgb(175, 14, 203)
+    );
+}
+
+.box {
+    padding: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.3rem;
+}
+
